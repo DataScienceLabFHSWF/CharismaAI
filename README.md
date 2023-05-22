@@ -2,6 +2,9 @@
 This repository holds the code for the conference talk on charisma signaling in crises situations by Krügl et al. presented at the EAWOP 2023 in Katowice, Poland <br />
 The provided notebooks finetune multiple BERT models that predicts charismatic leadership tractics in text.<br />
 
+If you would like to contribute to this project please refer to the [contributing page](contributing/general-info.md).
+
+
 ## Abstract
 ### Real Leaders Emerge from Crises: 
 ### A Study on Female and Male Governors’ Charisma in Times of the COVID-19 Crises. 
