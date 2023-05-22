@@ -1,5 +1,5 @@
 # CharismaBERT
-This repository holds the code for the conference talk on charisma signaling in crises situations by Krügl et al. presented at the EAWOP 2023 in Katowice, Poland <br />
+This repository holds the code for the conference talk on charisma signaling in crises situations by Krügl et al. presented at the EAWOP 2023 in Katowice, Poland. <br />
 The provided notebooks finetune multiple BERT models that predicts charismatic leadership tractics in text.<br />
 
 If you would like to contribute to this project please refer to the [contributing page](contributing/general-info.md).
@@ -7,7 +7,7 @@ If you would like to contribute to this project please refer to the [contributin
 
 ## Abstract
 ### Real Leaders Emerge from Crises: 
-### A Study on Female and Male Governors’ Charisma in Times of the COVID-19 Crises. 
+### A Study on Female and Male Governors’ Charisma in Times of the COVID-19 Crisis. 
 Nowadays, one crisis chases the other, and that calls for strong leadership. But do leaders become more charismatic in times of crisis? Many scholars theorized crisis as an antecedent for leader charisma (e.g., Shamir, House, & Arthur, 1993; Shamir & Howell 1999). Bligh et al. (2004) demonstrated that U.S. President George W. Bush increased his charismatic rhetoric after 9/11, and classified it into eight “charismatic themes” (See Shamir et al., 1994).
 Bastardoz et al. (2022) expanded their results: They showed that a crisis does not only foster “charismatic themes” (Shamir et al., 1994), but also the amount of charismatic leadership tactics (CLTs) (Antonakis et al., 2011) in presidential speeches. They used a Regression Discontinuity in Time (RDiT) design to identify the causal effects. They extended generalizability, by examining the speeches of French President François Hollande after the 2015 Paris attacks. However, both studies focused on terrorist attacks, sampled few speakers and focused solely on male leaders. 
 Our study analyzes the rhetoric of 9 female and 9 male U.S. governors 3 months before and after the onset of the COVID-19 pandemic. We thereby extend previous insights of charisma and crises literature in at least three ways: Firstly, we explore leader gender as a moderator of the relationship between crisis and leader charisma. Secondly, we explore the nature of a different crises (e.g., terror attacks vs. pandemic). Thirdly, we sampled more speakers. 
