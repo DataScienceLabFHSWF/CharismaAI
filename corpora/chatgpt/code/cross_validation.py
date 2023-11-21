@@ -3,8 +3,12 @@ from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
 
 def calculate_similarity(df1, df2):
+    # Skipping the first three rows in each dataframe
+    df1_skipped = df1.iloc[3:]
+    df2_skipped = df2.iloc[3:]
+
     # Concatenate the data from both dataframes for comparison
-    concatenated_data = pd.concat([df1, df2])
+    concatenated_data = pd.concat([df1_skipped, df2_skipped])
 
     # Convert the concatenated data to a list of strings
     data_list = concatenated_data.astype(str).values.flatten().tolist()
@@ -19,8 +23,8 @@ def calculate_similarity(df1, df2):
     return similarity_matrix[0, 1]  # Assuming you're comparing the first row with the second
 
 # Usage example:
-file1 = pd.ExcelFile('revised_4_1.xlsx')
-file2 = pd.ExcelFile('revised_4_2.xlsx')
+file1 = pd.ExcelFile('file1.xlsx')
+file2 = pd.ExcelFile('file2.xlsx')
 
 sheets_file1 = file1.sheet_names
 sheets_file2 = file2.sheet_names
