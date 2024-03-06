@@ -45,7 +45,7 @@ Gender equality and Decent work and economic growth
 - For the inference of all tactics we use a two-step model.
   - Firstly we predict whether any charismatic tactic is present in the sentence
   - Secondly we iterate over the tactics and predict whether the tactic is present in the sentence
-- The model performances as of 2023-05-17 are summarized in the table below:
+- The model performances as of 2024-05-17 are summarized in the table below:
 
 | with corpus    |                 |          |                  |                     |        |                     |          |                   |      |            |                             |                           |
 |----------------|-----------------|----------|------------------|---------------------|--------|---------------------|----------|-------------------|------|------------|-----------------------------|---------------------------|
@@ -60,7 +60,17 @@ Gender equality and Decent work and economic growth
 | F1-Score       |            78,2 |     25,5 |             78,9 |                88,9 |   50,0 |                48,8 |     44,9 |              54,4 | 78,4 |       62,7 |                        38,3 |                      53,5 |
 <br />
 <br />
+Adding to this work we generated a corpus of the CLTs with the openAI chat-gpt-turbo3.5 model. After training a similar BERT model on this data we obtained prediction performances for each CLT. The scores are presented in the table below:
 
+| Tactic name | Metaphor/Simile | Rhetorical question | Story/Anecdote | Contrast | Lists/Repetitions | Sentiment of the collective | Moral conviction | Ambitious goals | Confidence in goals |
+|-------------|-----------------|---------------------|----------------|----------|-------------------|-----------------------------|------------------|-----------------|---------------------|
+| precision   | 0.9944          | 0.9906              | 0.9937         | 0.9828   | 0.9881            | 0.9835                      | 0.9864           | 0.9888          | 0.9969              |
+| recall      | 0.9872          | 0.9996              | 0.9825         | 0.9888   | 0.9901            | 0.9872                      | 0.9794           | 0.9981          | 0.9987              |
+| f1-score    | 0.9908          | 0.9951              | 0.9881         | 0.9858   | 0.9891            | 0.9854                      | 0.9829           | 0.9934          | 0.9978              |
+| support     | 6710            | 2431                | 802            | 3291     | 5778              | 2116                        | 1702             | 529             | 1597                |
+
+<br />
+<br />
 This work is based on the DeepEthics Framework by Banks et al. The code can be found under: https://github.com/atefehmah/DeepEthics <br />
 The corresponding paper for this work is found under: https://doi.org/10.1016/j.leaqua.2022.101658 <br />
 <br />
