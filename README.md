@@ -45,7 +45,14 @@ Gender equality and Decent work and economic growth
 - For the inference of all tactics we use a two-step model.
   - Firstly we predict whether any charismatic tactic is present in the sentence
   - Secondly we iterate over the tactics and predict whether the tactic is present in the sentence
-- The model performances as of 2024-05-17 are summarized in the table below:
+- The model performances as of 2024-03-11 are summarized in the table below:
+
+| with corpus | reduced tactics |                 |                  |                     |   |                     |          |                   |   |                 |                             |                 |
+|-------------|-----------------|-----------------|------------------|---------------------|---|---------------------|----------|-------------------|---|-----------------|-----------------------------|-----------------|
+| Model       | Charisma Tactic | Metaphor/Simile | Moral conviction | Rhetorical question |   | confidence in goals | Contrast | Stories/Anecdotes |   | List/Repetition | Sentiment of the collective | Ambitious goals |
+| Accuracy    | -               |           96,90 |            85,10 |               99,70 |   |               99,90 |    96,50 |             97,60 |   |           95,70 |                       99,90 |          100,00 |
+| Precision   | -               |           97,80 |            90,30 |               99,70 |   |               99,90 |    98,00 |             97,40 |   |           97,80 |                       99,90 |          100,00 |
+| F1-Score    | -               |           97,40 |            90,50 |               99,80 |   |               99,90 |    97,50 |             96,70 |   |           97,50 |                       99,90 |          100,00 |
 
 | with corpus    |                 |          |                  |                     |        |                     |          |                   |      |            |                             |                           |
 |----------------|-----------------|----------|------------------|---------------------|--------|---------------------|----------|-------------------|------|------------|-----------------------------|---------------------------|
